@@ -7,9 +7,11 @@
             Console.WriteLine("Hello, World!");
         }
     }
-    class Car<T>
+    class Car<T1>
     {
-        public T Engine;
+        public T1 Engine;
+
+        public virtual void ChangePart<T2>(T2 newPart) { }
 
     }
     class ElectricEngine
@@ -20,5 +22,11 @@
     {
     
     }
+    class Battery() { }
+
+    class Differential() { }
+
+    class Wheel() { }
+
 
 }
