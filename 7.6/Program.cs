@@ -7,18 +7,12 @@
             Console.WriteLine("Hello, World!");
         }
     }
-    class Car<T>
+    class Record<T1, T2>
     {
-        public T Engine;
+        public T1 Id;
+        public DateTime Date;
+        public T2 Value;
 
-    }
-    class ElectricEngine
-    {
-
-    }
-    class GasEngine 
-    {
-    
     }
 
 }
